@@ -74,6 +74,7 @@ public class Backdrop
 			charTalk = new JLabel(d.getCurrentLine(), SwingConstants.CENTER);
 			charTalk.setBounds(100, 575, 1100, 100);
 			charTalk.setFont(font);
+			charTalk.setForeground(Color.WHITE);
 			
 			// add buttons
 			next = new JButton(getImage("images/next.png"));
