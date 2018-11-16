@@ -62,7 +62,7 @@ public class Backdrop
 		else
 		{
 			// variables
-			Font font = new Font("SansSerif", Font.BOLD, 32);
+			Font font = new Font("SansSerif", Font.BOLD, 28);
 			
 			// find the image and set bounds
 			String append = "backdrops/" + name + ".png";
@@ -72,7 +72,7 @@ public class Backdrop
 			// retrieve first text line and set bounds
 			d = new Dialogue(name);
 			charTalk = new JLabel(d.getCurrentLine(), SwingConstants.CENTER);
-			charTalk.setBounds(100, 575, 1100, 100);
+			charTalk.setBounds(40, 575, 1180, 100);
 			charTalk.setFont(font);
 			charTalk.setForeground(Color.WHITE);
 			
